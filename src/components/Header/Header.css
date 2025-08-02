@@ -1,5 +1,4 @@
 .h-wrapper{
-    background: var(--black);
     color: white;
 }
 .h-container{
@@ -9,5 +8,6 @@
     color: var(--secondary);
 }
 .h-menu{
-    gap: 2rem;
+    gap: 1rem;
+    font-size: 15px;
 }

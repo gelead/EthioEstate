@@ -26,6 +26,8 @@ a {
 
 .innerWidth {
   width: 100%;
+  max-width: 990px;
+  margin: auto;
 }
 
 .flexCenter {
@@ -74,7 +76,7 @@ a {
 
 .secondaryText {
   color: rgb(140 139 139);
-  font-size: 0.9rem;
+  font-size: 0.7rem;
 }
 .orangeText {
   color: orange;

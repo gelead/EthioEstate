@@ -50,9 +50,12 @@
 
 .stats {
   width: 100%;
-  /* max-width: 300px; */
+  max-width: 300px;  
   justify-content: space-between;
   gap: 1rem;
+}
+.stat-des{
+  font-size: 0.6rem;
 }
 .stat>:nth-child(1) {
   font-size: 1.2rem; 
@@ -65,7 +68,7 @@
   max-height: 30rem;
   overflow: hidden;
   border-radius: 15rem 15rem 0 0;
-  border: 8px solid rgba(255, 255, 255, 0.12);
+  border: 8px solid rgba(255, 255, 255, 0.12);  
 }
 .image-container img {
   width: 100%;

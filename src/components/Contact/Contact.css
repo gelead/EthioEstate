@@ -6,7 +6,6 @@
 }
 .c-right {
   width: 60%;
-  
 }
 .c-left {
   gap: 0.5rem;
@@ -18,14 +17,14 @@
   width: 100%;
   height: 100%;
 }
-.contactModes{
+.contactModes {
   margin-top: 2rem;
   gap: 1rem;
 }
-.contactModes .row{
+.contactModes .row {
   gap: 1.5rem;
 }
-.mode{
+.mode {
   width: 14rem;
   padding: 1rem;
   border: 0.8px solid rgba(128, 128, 128, 0.143);
@@ -33,18 +32,18 @@
   gap: 1rem;
   transition: all 300ms ease-in;
 }
-.mode .button{
+.mode .button {
   width: 100%;
   background: var(--lightBlue);
   color: var(--blue);
   font-size: 0.8rem;
   font-weight: 600;
 }
-.mode >:nth-child(1) {
+.mode > :nth-child(1) {
   width: 100%;
   gap: 1.5rem;
 }
-.mode .detail .primaryText{
+.mode .detail .primaryText {
   font-size: 1.1rem;
   font-weight: 600;
 }
@@ -55,5 +54,27 @@
 .mode .button:hover {
   background: var(--blue-gradient);
   color: white;
-  scale: 0.8
+  scale: 0.8;
+}
+@media (max-width: 640px) {
+  .c-left {
+    width: 100%;
+  }
+  .mode {
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .mode .button {
+    font-size: 0.7rem;
+  }
+  .mode > :nth-child(1) {
+    gap: 1.0rem;
+  }
+  .mode .detail .primaryText {
+    font-size: 1.0rem;
+  }
 }

@@ -46,3 +46,9 @@
 .accordionButton .primaryText {
   font-size: 1.0rem;
 }
+@media (max-width: 640px){
+  .v-container .image-container {
+  transform: scale(0.8);
+  margin: auto;
+}
+}

@@ -17,9 +17,9 @@
   z-index: 1;
 }
 .hero-title h1 {
-  font-size: 35px;
+  font-size: 3rem;
   font-weight: 600;
-  line-height: 1;
+  line-height: 4rem;
 }
 .orange-circle {
   height: 3rem;
@@ -38,7 +38,7 @@
   padding: 0.3rem 1rem;
   justify-content: space-between;
   width: 100%;
-  max-width: 350px;
+  width: 350px;
 }
 
 .search-bar input {
@@ -47,8 +47,7 @@
 }
 
 .stats {
-  width: 100%;
-  max-width: 300px;
+  width: 300px;
   justify-content: space-between;
   gap: 1rem;
 }
@@ -60,4 +59,34 @@
 }
 .stat > :nth-child(1) > :last-child {
   color: orange;
+}
+@media (max-width: 640px){
+  .hero-container{
+    margin-top: 2rem;
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding: 0;
+    justify-content: center;
+    
+  }
+  .hero-title>h1{
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+  .hero-des .secondaryText{
+    font-size: 0.9rem;
+    width: 100%;
+  }
+  .search-bar{
+    width: 100%;
+  }
+  .stats {
+    width: 100%;
+  }
+  .image-container{
+    transform: scale(0.9);
+  }
 }

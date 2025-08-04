@@ -1,5 +1,5 @@
 ﻿# EthioEstate
-# 🏡 Real Estate Web App - Frontend
+# 🏡 Real Estate Web App - Frontend. **(Currently working on the Backend)
 
 A modern, responsive real estate website built with **React**, showcasing property listings, contact methods, and elegant UI components. This project is designed to demonstrate frontend development skills including layout design, component architecture, and responsive behavior.
 
@@ -12,9 +12,6 @@ A modern, responsive real estate website built with **React**, showcasing proper
 - 💡 Reusable components for layout consistency
 - 🌐 Deployment-ready (Netlify/Vercel/Cloudflare Pages)
 
-## 📸 Screenshots
-
-> Add screenshots or demo GIFs here (optional but recommended)
 
 ## 🛠 Tech Stack
 
@@ -24,6 +21,7 @@ A modern, responsive real estate website built with **React**, showcasing proper
 - **Vite or Create React App** (depending on your setup)
 
 ## currently working on the BackEnd...
+
 
 
 

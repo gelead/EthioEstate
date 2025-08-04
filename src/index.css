@@ -83,6 +83,7 @@ a {
   font-size: 1.5rem;
   font-weight: 600;
 }
+
 .button {
   font-weight: 500;
   padding: 0.6rem 1.4rem;
@@ -93,6 +94,18 @@ a {
   transition: all 300ms ease-in;
   transform: scale(1.1);
 }
+.image-container {
+  width: 22rem;
+  height: 30rem;
+  overflow: hidden;
+  border-radius: 15rem 15rem 0 0;
+  border: 8px solid rgba(255, 255, 255, 0.12);
+}
+.image-container img {
+  width: 100%;
+  height: 100%;
+}
+
 /* media queries */
 @media (min-width: 1536px) {
   .innerWidth {

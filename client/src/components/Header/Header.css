@@ -1,0 +1,66 @@
+.h-wrapper {
+  z-index: 99;
+  position: relative;
+  top: 0;
+  width: 100%;
+  background: var(--white); /* fallback for header background */
+}
+
+.h-container {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: var(--secondary);
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.h-menu {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  position: relative; /* needed for dropdowns */
+  overflow: visible; /* important for Mantine Menu */
+}
+
+.h-menu > *:hover {
+  cursor: pointer;
+}
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+
+  .h-menu {
+    display: none; /* hide desktop menu on mobile */
+  }
+
+  .mobile-menu {
+    color: var(--black);
+    position: absolute;
+    flex-direction: column;
+    right: 1rem;
+    top: 4rem;
+    background: white;
+    border-radius: 10px;
+    transition: all 200ms ease;
+    align-items: flex-start;
+    padding: 2rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    gap: 1.5rem;
+    z-index: 100;
+  }
+
+  .mobile-menu a,
+  .mobile-menu button {
+    width: 100%;
+    text-align: left;
+  }
+}
